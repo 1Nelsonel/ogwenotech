@@ -3,7 +3,7 @@ development:
   dialect: postgres
   database: ogwenotech_development
   user: postgres
-  password: postgres
+  password: 0101
   host: 127.0.0.1
   pool: 5
 

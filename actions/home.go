@@ -11,3 +11,9 @@ import (
 func HomeHandler(c buffalo.Context) error {
 	return c.Render(http.StatusOK, r.HTML("home/index.plush.html"))
 }
+
+// a about page.
+func AboutHandler(c buffalo.Context) error {
+	return c.Render(http.StatusOK, r.HTML("home/about.plush.html"))
+}
+
